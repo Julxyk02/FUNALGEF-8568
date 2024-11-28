@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace AlquilerCarros
 {
-    internal class Alquiler
-    {
+    internal class Alquiler{
+        public int numero { get; set; }
+        public Carro CarroAlq { get; set; }
+        public Cliente Contraste { get; set; }
+        public double Precio { get; set; }
+        public override string ToString(){
+            return $"Numero: {numero}, Alquilar: {CarroAlq}, Contraste: {Contraste}, Precio: {Precio}";
+        }
     }
 }

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace AlquilerCarros
 {
-    internal class AlquilerUtil
-    {
+    internal class AlquilerUtil{
     }
 }
